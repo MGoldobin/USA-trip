@@ -1,0 +1,8 @@
+.header__languages {
+	margin: 3px 0 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	position: absolute;
+	right: 0;
+}
