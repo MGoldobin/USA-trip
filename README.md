@@ -1,6 +1,6 @@
 # Project 3: From Portland to Portland
 
-Link: https://mgoldobin.github.io/web_project_3/index.html
+Link: https://mgoldobin.github.io/USA-trip/
 
 **Intro**
 
