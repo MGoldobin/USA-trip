@@ -3,7 +3,7 @@
 .photo-grid {
 	display: grid;
 	max-width: 1184px;
-  grid-template-columns: repeat(4, auto);
+	grid-template-columns: repeat(4, auto);
   gap: 16px;
 	margin: 0 auto;
 	padding: 92px 0;
@@ -27,7 +27,7 @@
 	}
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 425px)
 {
 	.photo-grid {
 		grid-template-columns: repeat(1, auto);

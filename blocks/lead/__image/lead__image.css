@@ -3,24 +3,29 @@
 	margin: 64px auto 8px;
 	max-width: 984px;
 	display: flex;
-	align-self: center;
+  align-self: center;
+  object-fit: cover;
+  height: 615px;
 }
 
 @media (max-width: 1024px) {
   .lead__image {
 		max-width: 928px;
     margin-top: 56px;
+    height: calc(100vw * 580 / 1024);
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-		max-width: 768px;
+    max-width: 768px;
+    height: calc(100vw * 480 / 768);
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
     margin-top: 40px;
+    height: calc(100vw * 200 / 320);
   }
 }
